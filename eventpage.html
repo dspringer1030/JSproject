@@ -1,14 +1,22 @@
 <html><head><title>test page</title>
     <script src="randomevent.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <style>.scoreboard{display:inline-block;background-color:black;width:2em;color:white;line-height:1em;height:1em;text-align:right;padding:.1em;}</style>
     
     </head>
 <body style="font-family: 'Orbitron', sans-serif;font-size:3em;">
 
     <input id="myLoopInput" type="number"/></input>  
     <button onclick="runEventLoop();">Start</button>
-<div style="display:block;">Score: <div style="display:inline-block;background-color:black;width:2em;color:white;line-height:1em;height:1em;text-align:right;padding:.1em;" id="ScoreDisplay"></div> <div style="display:inline-block;">Fouls: <div style="display:inline-block;background-color:black;width:2em;color:white;line-height:1em;height:1em;text-align:right;padding:.1em;" id="FoulDisplay"></div></div>   
+<div><div>Team 1<br/></br/>Score: <div class="scoreboard" id="ScoreTeamOneDisplay"></div> Fouls: <div class="scoreboard" id="FoulTeamOneDisplay"></div></div>
+<div>Team 2<br/></br/>Score: <div class="scoreboard"   id="ScoreTeamTwoDisplay"></div> Fouls: <div class="scoreboard" id="FoulTeamTwoDisplay"></div></div></div>
+    
+        
+        
+       
 <div id="result" style="font-size:medium;"></div>
+    
+    
 
 <!--<script>runEventLoop();</script>-->
 </body>
