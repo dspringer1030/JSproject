@@ -2,9 +2,9 @@
 //var fouls = 0;
 var team = 1;
 var i = 0;
+var TeamOneScore = 0;
 var TeamTwoFouls = 0;
 var TeamOneFouls = 0;
-var TeamOneScore = 0;
 var TeamTwoFouls = 0;
 
 function runEventLoop() {
